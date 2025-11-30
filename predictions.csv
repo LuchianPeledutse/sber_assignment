@@ -1,0 +1,198 @@
+document_id,prediction
+1006,"мария захарова мария захарова per per-maria-zakharova
+мида россии министерство иностранных дел россии org org-ministry-of-foreign-affairs-of-russia
+facebook facebook org org-facebook
+министр иностранных дел великобритании министр иностранных дел великобритании org org-minister-of-foreign-affairs-of-the-united-kingdom
+борис джонсон борис джонсон per per-boris-johnson
+британии великобритания loc gpe-united-kingdom
+русской литературы русская литература pro lit-russian-literature
+т. мэй тереза мэй per per-theresa-may
+brexit brexit evt evt-brexit"
+1003,"борис джонсон борис джонсон per per-boris-johnson
+министр иностранных дел великобритании министр иностранных дел великобритании org org-minister-of-foreign-affairs-of-the-united-kingdom
+агентство рейтер агентство рейтер org org-reuters
+тереза мэй тереза мэй per per-theresa-may
+даунинг-стрит даунинг-стрит loc loc-downing-street
+великобритания великобритания loc gpe-united-kingdom
+евросоюз европейский союз org org-european-union
+брекзит брекзит evt evt-brexit
+дэвид дэвис дэвид дэвис per per-david-davis"
+1017,"борис джонсон борис джонсон per per-boris-johnson
+министр иностранных дел великобритании министр иностранных дел великобритании org org-minister-of-foreign-affairs-of-the-united-kingdom
+киев киев loc gpe-ukraine
+унн унн org org-unn
+the guardian the guardian org org-guardian
+премьер-министр премьер-министр org org-prime-minister
+британского парламента британский парламент org org-parliament-of-the-united-kingdom
+великобритания великобритания loc gpe-united-kingdom
+министр по вопросам выхода великобритании из ес министр по вопросам выхода великобритании из ес org org-minister-for-brexit
+дэвид дэвис дэвид дэвис per per-david-davis
+заместитель министра заместитель министра org org-deputy-minister
+brexit brexit evt evt-brexit
+стив бейкер стив бейкер per per-steve-baker
+тереза мэй тереза мэй per per-theresa-may
+соединенное королевство соединенное королевство loc gpe-united-kingdom
+евросоюза европейский союз org org-european-union"
+1000,"борис джонсон борис джонсон per per-boris-johnson
+министр иностранных дел великобритании министр иностранных дел великобритании org org-minister-of-foreign-affairs-of-the-united-kingdom
+великобритания великобритания loc gpe-united-kingdom
+дэвид дэвис дэвид дэвис per per-david-davis
+министр по вопросам выхода великобритании из ес министр по вопросам выхода великобритании из ес org org-minister-for-brexit
+стив бейкер стив бейкер per per-steve-baker
+заместитель министра заместитель министра org org-deputy-minister
+brexit brexit evt evt-brexit
+тереза мэй тереза мэй per per-theresa-may
+премьер-министр великобритании премьер-министр великобритании org org-prime-minister-of-the-united-kingdom
+соединенное королевство соединенное королевство loc gpe-united-kingdom
+the guardian the guardian org org-guardian
+унн унн org org-unn
+британского парламента британский парламент org org-parliament-of-the-united-kingdom"
+1002,"тереза мей тереза мэй per per-theresa-may
+премьер-министр великобритании премьер-министр великобритании org org-prime-minister-of-the-united-kingdom
+великобритания великобритания loc gpe-united-kingdom
+министр иностранных дел министр иностранных дел org org-minister-of-foreign-affairs
+борис джонсон борис джонсон per per-boris-johnson
+страны страна loc gpe-country
+евросоюз европейский союз org org-european-union
+британия великобритания loc gpe-united-kingdom
+брекзит брекзит evt evt-brexit
+дэвид дэвис дэвид дэвис per per-david-davis"
+1001,"борис джонсон борис джонсон per per-boris-johnson
+министр иностранных дел великобритании министр иностранных дел великобритании org org-minister-of-foreign-affairs-of-the-united-kingdom
+associated press associated press org org-associated-press
+тереза мэй тереза мэй per per-theresa-may
+премьер-министр премьер-министр org org-prime-minister
+канцелярия премьера канцелярия премьера org org-prime-minister-office
+евросоюз европейский союз org org-european-union
+brexit brexit evt evt-brexit
+май май per per-theresa-may
+соединенное королевство соединенное королевство loc gpe-united-kingdom"
+1011,"борис джонсон борис джонсон per per-boris-johnson
+министр иностранных дел великобритании министр иностранных дел великобритании org org-minister-of-foreign-affairs-of-the-united-kingdom
+британские сми британские средства массовой информации org org-british-media
+тереза мэй тереза мэй per per-theresa-may
+премьер-министр великобритании премьер-министр великобритании org org-prime-minister-of-the-united-kingdom
+ev евросоюз org org-european-union
+the guardian the guardian org org-guardian
+brexit brexit evt evt-brexit
+david davis дэвид дэвис per per-david-davis
+палата общин палата общин org org-house-of-commons
+кабинет министров кабинет министров org org-cabinet-of-ministers
+великобритания великобритания loc gpe-united-kingdom"
+1004,"борис джонсон борис джонсон per per-boris-johnson
+мид великобритании министерство иностранных дел великобритании org org-ministry-of-foreign-affairs-of-the-united-kingdom
+тасс тасс org org-tass
+канцелярия премьер-министра канцелярия премьер-министра org org-prime-minister-office
+тереза мэй тереза мэй per per-theresa-may
+министр по вопросам brexit министр по вопросам brexit org org-minister-for-brexit
+david davis дэвид дэвис per per-david-davis
+евросоюз европейский союз org org-european-union
+brexit brexit evt evt-brexit
+германии германия loc gpe-germany
+польши польша loc gpe-poland
+лондоне лондон loc gpe-london
+саммит по развитию региона западных балкан саммит по развитию региона западных балкан evt evt-western-balkans-summit
+регион западных балкан регион западных балкан loc region-western-balkans
+министр иностранных дел министр иностранных дел org org-minister-of-foreign-affairs
+консервативная партия консервативная партия org org-conservative-party"
+10,"тереза мэй  тереза мэй  per  per-theresa-may
+британии  великобритания  loc  gpe-united-kingdom
+сми  средства массовой информации  org  org-media
+сентября  сентябрь  time  month-september
+конференции  конференция  evt  evt-conference
+партию  партия  org  org-party
+тори  тори  org  org-conservative-party
+фаворит  фаворит  per  per-favorite
+букмекеров  букмекеры  org  org-bookmakers
+сменщик  сменщик  per  per-successor
+премьера  премьер-министр  per  per-prime-minister
+бывший  бывший  adj  former
+министр  министр  org  org-minister
+иностранных дел  иностранный отдел  org  org-foreign-affairs
+британии  великобритания  loc  gpe-united-kingdom
+борис джонсон  борис джонсон  per  per-boris-johnson
+доклад  доклад  doc  document-alternative-report
+взглядов  взгляд  pro  viewpoint-opinion
+главы  глава  per  per-leader
+правительства  правительство  org  org-government
+условия  условие  pro  condition-term
+brexit  brexit  evt  evt-brexit
+точки  точка  pro  point-of-view
+лондон  лондон  loc  gpe-london
+обернул  обернуть  act  wrap-action
+британскую  британский  adj  british
+конституцию  конституция  pro  constitution-charter
+поясом  пояс  obj  explosive-belt-object
+смертника  смертник  per  suicide-bomber-person
+вручил  вручить  act  handover-action
+детонатор  детонатор  obj  detonator-object
+мишель барнье  мишель барнье  per  per-michel-barnier
+переговорщик  переговорщик  per  negotiator-person
+брюсселя  брюссель  loc  gpe-brussels
+конференции  конференция  evt  conference-event
+альбиона  альбион  loc  gpe-albion
+лондон  лондон  loc  gpe-london
+брюссель  брюссель  loc  gpe-brussels
+39 миллиардов фунтов стерлингов  фунт стерлингов  pro  currency-gbp
+законы ес  законы ес  pro  eu-laws
+северная ирландия  северная ирландия  loc  gpe-northern-ireland
+таможенный союз  таможенный союз  org  customs-union
+европы  европа  loc  gpe-europe
+британия  великобритания  loc  gpe-united-kingdom
+борис джонсон  борис джонсон  per  per-boris-johnson
+союз  союз  org  alliance
+брюссель  брюссель  loc  gpe-brussels
+англичан  англичанин  per  per-englishmen
+территории  территория  loc  territory
+соединенное королевство  соединенное королевство  loc  gpe-united-kingdom
+брексит  брексит  evt  evt-brexit
+мэй  тереза мэй  per  per-theresa-may
+четверг  четверг  time  weekday-thursday
+саммит  саммит  evt  summit-event
+брюссель  брюссель  loc  gpe-brussels
+евросоюз  европейский союз  org  org-european-union
+альбион  альбион  loc  gpe-albion
+борис джонсон  борис джонсон  per  per-boris-johnson
+мэй  тереза мэй  per  per-theresa-may
+британский  великобритания  loc  gpe-united-kingdom
+мида  министерство иностранных дел  org  org-ministry-of-foreign-affairs
+среда  среда  time  week-day-wednesday
+экстренного саммита  экстренный саммит  evt  evt-emergency-summit
+евросоюза  европейский союз  org  org-european-union
+австрийский  австрия  loc  gpe-austria
+себастьян курц  себастьян курц  per  per-sebastian-kurz
+канцлер  канцлер  org  org-chancellor
+брюссель  брюссель  loc  gpe-brussels
+брекзит  брекзит  evt  evt-brexit
+делов  сделка  pro  deal-agreement
+конференции  конференция  evt  evt-conference
+консервативной партии  консервативная партия  org  org-conservative-party
+лондону  лондон  loc  gpe-london
+хаоса  хаос  evt  evt-chaos
+кресло  кресло  furn  chair-seat
+британского премьера  британский премьер-министр  per  per-british-prime-minister
+триумфальное возвращение  триумфальное возвращение  evt  evt-triumphant-return
+британские букмекерские конторы  британские букмекерские конторы  org  org-british-bookmakers
+бывший министр иностранных дел  бывший министр иностранных дел  per  per-former-foreign-minister
+кандидат  кандидат  per  per-candidate
+фаворит  фаворит  per  per-favorite
+премьера  премьер-министр  per  per-prime-minister
+мэй  тереза мэй  per  per-theresa-may
+лондон  лондон  loc  gpe-london
+евросоюз  европейский союз  org  org-european-union
+эксперты международного валютного фонда  международные эксперты  org  org-international-experts
+международный валютный фонд  международный валютный фонд  org  org-international-monetary-fund
+ла-манш  пролив ла-манш  loc  gpe-la-manche
+бизнес  бизнес  org  business-entity
+лекарственные препараты  лекарственный препарат  pro  pharmaceutical-product
+еврокомиссия  еврокомиссия  org  org-european-commission
+финансовые рынки  финансовый рынок  org  financial-market
+лидеры руководства  руководство  org  leadership
+евросоюза  европейский союз  org  org-european-union
+соглашение  соглашение  pro  agreement-deal
+брюссель  брюссель  loc  gpe-brussels
+европейский парламент  европейский парламент  org  org-european-parliament
+британский парламент  британский парламент  org  org-british-parliament
+лейбористы  лейбористы  org  org-labour-party
+компромисс  компромисс  pro  compromise-outcome
+альбион  альбион  loc  gpe-albion"
