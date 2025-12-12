@@ -22,12 +22,12 @@ EMBED_DIM = 300
 #shape = V x E
 embed_matrix = np.random.randint(100, 1_000_000, size=(VOCAB_SIZE, EMBED_DIM)).astype(np.float32)
 
-random_vector = -embed_matrix[83, :]
+random_vector = -embed_matrix[155, :]
 
 def cos_angle(a: np.ndarray, b: np.ndarray) -> float:
     nominator = np.dot(a, b)
     denominator = np.linalg.norm(a)*np.linalg.norm(b)
-    return nominator/denominator if denominator != 0 else 0.0
+    return nominator/denominator
 
 def CosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
     best_ind, cos_value = 0, float('-inf')
@@ -46,9 +46,9 @@ def VectorCosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
     # nominator 
     target_vector = b - embed_matrix[a, :] + embed_matrix[a_star, :]
     half_dot = embed_matrix * target_vector
-    full_dot = embed_matrix.sum(axis=0)
+    full_dot = embed_matrix.sum(axis=1)
     #denomenator
-    half_norm = np.apply_along_axis(np.linalg.norm, axis=0, arr=embed_matrix)
+    half_norm = np.apply_along_axis(np.linalg.norm, axis=1, arr=embed_matrix)
     full_norm = half_norm*np.linalg.norm(target_vector)
     return np.argmax(full_dot/full_norm)
     
