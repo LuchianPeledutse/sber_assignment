@@ -15,21 +15,36 @@ def softmax(input: np.ndarray, temperature: float) -> np.ndarray:
 
 # 3CosAdd implementation
 
-VOCAB_SIZE = 100
+VOCAB_SIZE = 200
 EMBED_DIM = 300
 
-embed_matrix = np.random.default_rng().random(size=(VOCAB_SIZE, EMBED_DIM))
+#random matricies and vectors
+embed_matrix = np.random.randint(100, 1_000_000, size=(VOCAB_SIZE, EMBED_DIM)).astype(np.float32)
+
+random_vector = -embed_matrix[155, :]
 
 def cos_angle(a: np.ndarray, b: np.ndarray) -> float:
-    return a.dot(b)/(np.linalg.norm(a)*np.linalg.norm(b))
+    nominator = np.dot(a, b)
+    denominator = np.linalg.norm(a)*np.linalg.norm(b)
+    return nominator/denominator if denominator != 0 else 0.0
 
-def CosAdd(b:np.ndarray, a: int = 0, a_star: int = 53) -> int:
+def CosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
+    best_ind, cos_value = 0, float('-inf')
+
     for row_ind in range(len(embed_matrix)):
-        pass
+        current_value = cos_angle(embed_matrix[row_ind, :], b - embed_matrix[a, :] + embed_matrix[a_star, :])
 
+        if current_value > cos_value:
+            cos_value = current_value
+            best_ind = row_ind
+
+    return best_ind
+
+def 
 
 if __name__ == "__main__":
     print(f"My softmax value: {softmax(input_array, 1)}")
     print(f"Scipy softmax value: {special.softmax(input_array)}", end='\n\n')
 
-    print(len(embed_matrix))
+    print(f"Shape of vector we search for: {random_vector.shape}")
+    print(f"Answer with python loop: {CosAdd(random_vector)}")
