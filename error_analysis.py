@@ -20,15 +20,15 @@ EMBED_DIM = 300
 
 #random matricies and vectors
 #shape = V x E
-embed_matrix = np.random.randint(100, 1_000_000, size=(VOCAB_SIZE, EMBED_DIM)).astype(np.float32)
-random_vector = -embed_matrix[155, :] + 3
+the_matrix = np.random.randint(100, 1_000_000, size=(VOCAB_SIZE, EMBED_DIM)).astype(np.float32)
+random_vector = -the_matrix[155, :] + 3
 
 def cos_angle(a: np.ndarray, b: np.ndarray) -> float:
     nominator = np.dot(a, b)
     denominator = np.linalg.norm(a)*np.linalg.norm(b)
     return nominator/denominator
 
-def CosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
+def CosAdd(b:np.ndarray, embed_matrix: np.ndarray, a: int = 83, a_star: int = 155) -> int:
     best_ind, cos_value = 0, float('-inf')
 
     for row_ind in range(len(embed_matrix)):
@@ -40,7 +40,7 @@ def CosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
 
     return best_ind
 
-def VectorCosAdd(b: np.ndarray, a: int = 83, a_star: int = 155) -> int:
+def VectorCosAdd(b: np.ndarray, embed_matrix: np.ndarray, a: int = 83, a_star: int = 155) -> int:
     # vectors shape = 1 x E
     # dot product of every matrix row with target vector
     target_vector = b - embed_matrix[a, :] + embed_matrix[a_star, :]
@@ -56,5 +56,5 @@ if __name__ == "__main__":
     print(f"Scipy softmax value: {special.softmax(input_array)}", end='\n\n')
 
     print(f"Shape of vector we search for: {random_vector.shape}")
-    print(f"Answer with python loop: {CosAdd(random_vector)}")
-    print(f"Answer with numpy implementation: {VectorCosAdd(random_vector)}", end='\n\n')
+    print(f"Answer with python loop: {CosAdd(random_vector, the_matrix)}")
+    print(f"Answer with numpy implementation: {VectorCosAdd(random_vector, the_matrix)}", end='\n\n')
