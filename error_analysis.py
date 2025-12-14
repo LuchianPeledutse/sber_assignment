@@ -21,8 +21,7 @@ EMBED_DIM = 300
 #random matricies and vectors
 #shape = V x E
 embed_matrix = np.random.randint(100, 1_000_000, size=(VOCAB_SIZE, EMBED_DIM)).astype(np.float32)
-
-random_vector = -embed_matrix[155, :]
+random_vector = -embed_matrix[155, :] + 3
 
 def cos_angle(a: np.ndarray, b: np.ndarray) -> float:
     nominator = np.dot(a, b)
@@ -41,17 +40,16 @@ def CosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
 
     return best_ind
 
-def VectorCosAdd(b:np.ndarray, a: int = 83, a_star: int = 155) -> int:
+def VectorCosAdd(b: np.ndarray, a: int = 83, a_star: int = 155) -> int:
     # vectors shape = 1 x E
-    # nominator 
+    # dot product of every matrix row with target vector
     target_vector = b - embed_matrix[a, :] + embed_matrix[a_star, :]
     half_dot = embed_matrix * target_vector
-    full_dot = embed_matrix.sum(axis=1)
+    full_dot = half_dot.sum(axis=1)
     #denomenator
     half_norm = np.apply_along_axis(np.linalg.norm, axis=1, arr=embed_matrix)
     full_norm = half_norm*np.linalg.norm(target_vector)
     return np.argmax(full_dot/full_norm)
-    
 
 if __name__ == "__main__":
     print(f"My softmax value: {softmax(input_array, 1)}")
@@ -59,4 +57,4 @@ if __name__ == "__main__":
 
     print(f"Shape of vector we search for: {random_vector.shape}")
     print(f"Answer with python loop: {CosAdd(random_vector)}")
-    print(f"Answer with numpy implementation: {VectorCosAdd(random_vector)}")
+    print(f"Answer with numpy implementation: {VectorCosAdd(random_vector)}", end='\n\n')
